@@ -3,9 +3,8 @@
 **Goal:** Build `agent.py` that takes a question → calls LLM → prints JSON with `answer` and `tool_calls`.
 
 ## 1. LLM Provider Choice
-- Use **Qwen Code API** (recommended in task)
-- Deploy proxy on VM as per [wiki instructions](../../../wiki/qwen-code-api.md)
-- Model: `qwen3-coder-plus` (good tool support, 1000 free reqs/day)
+- Use **OpenRouter**
+- Use **Claude Sonnet model** (it has free tokens)
 
 ## 2. Environment Setup
 - Copy `.env.agent.example` → `.env.agent.secret`
