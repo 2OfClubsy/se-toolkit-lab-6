@@ -38,3 +38,4 @@ The agent prints a single JSON line to stdout:
 
 - `answer`: The LLM's response to your question
 - `tool_calls`: Reserved for future use (always empty in this version)
+
